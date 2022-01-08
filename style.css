@@ -1,0 +1,95 @@
+body{
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    font-family: 'trabalho';
+    color:midnightblue;
+}
+h2{
+    margin-top: -2%;
+}
+#logo{
+    align-items: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#edu, #aga, #eri{
+    border-radius: 50%;
+    border-style: groove;
+}
+p{
+    text-transform: uppercase;
+    font-family: 'trabalho';
+    color: midnightblue;
+    text-align: center;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 41%;
+    background-color: orangered;
+    font-family: 'trabalho';
+    font-size: 20px;
+    color: white;
+
+}
+
+footer{
+    background: rgba(245, 245, 245, 0.253);
+    width: 100%;
+    margin-top: 2%;
+    padding: 10px;
+}
+#github{
+    margin-left: 47%;
+}
+h1{
+    font-family: 'trabalho';
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#eri:hover{
+    border-color: tomato;
+}
+#aga:hover{
+    border-color: tomato;
+}
+#edu:hover{
+    border-color: tomato;
+}
+button:hover{
+    background-color: black;
+}
+
+
+@font-face {
+    font-family: 'trabalho';
+    src: url('Bodo Amat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width: 700px){
+    section{
+        display: grid;
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+    }
+    button{
+        margin-left: 4%;
+    }
+    #github{
+        margin-left: 35%;
+    }
+}

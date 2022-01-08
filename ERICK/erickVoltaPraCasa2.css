@@ -1,0 +1,57 @@
+body{
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    font-family: 'titulos';
+    color: #ff914d;
+    text-transform: uppercase;
+}
+main{
+    background: rgba(245, 245, 245, 0.377);
+    text-align: center;
+    font-family: 'trabalho';
+    color: midnightblue;
+    text-transform: uppercase;
+}
+button{
+    text-align: center;
+    font-family: 'trabalho';
+    color: red;
+}
+footer{
+    background: rgba(245, 245, 245, 0.253);
+    width: 100%;
+    margin-top: 20%;
+    padding: 10px;
+}
+#github{
+    margin-left: 47%;
+}
+h3{
+    font-family: 'trabalho';
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-family: 'trabalho';
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+}
+@font-face {
+    font-family: 'trabalho';
+    src: url('Bodo Amat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'titulos';
+    src: url('Black Streamer.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
